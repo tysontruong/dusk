@@ -2,8 +2,8 @@
 
 namespace DummyNamespace;
 
-use Laravel\Dusk\Browser;
-use Laravel\Dusk\Page as BasePage;
+use Travoltron\DuskSecure\Browser;
+use Travoltron\DuskSecure\Page as BasePage;
 
 class DummyClass extends BasePage
 {

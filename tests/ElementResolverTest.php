@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Laravel\Dusk\ElementResolver;
+use Travoltron\DuskSecure\ElementResolver;
 
 class ElementResolverTest extends TestCase
 {

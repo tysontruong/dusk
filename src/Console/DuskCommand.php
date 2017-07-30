@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk\Console;
+namespace Travoltron\DuskSecure\Console;
 
 use Dotenv\Dotenv;
 use Illuminate\Console\Command;

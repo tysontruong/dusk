@@ -2,7 +2,7 @@
 
 namespace Tests\Browser\Pages;
 
-use Laravel\Dusk\Browser;
+use Travoltron\DuskSecure\Browser;
 
 class HomePage extends Page
 {

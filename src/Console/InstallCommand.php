@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk\Console;
+namespace Travoltron\DuskSecure\Console;
 
 use Illuminate\Console\Command;
 
@@ -18,7 +18,7 @@ class InstallCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Install Dusk into the application';
+    protected $description = 'Install DuskSecure into the application';
 
     /**
      * Execute the console command.

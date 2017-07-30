@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Dusk\Concerns;
+namespace Travoltron\DuskSecure\Concerns;
 
-use Laravel\Dusk\Browser;
+use Travoltron\DuskSecure\Browser;
 use PHPUnit_Framework_Assert as PHPUnit;
 use DateTimeInterface;
 

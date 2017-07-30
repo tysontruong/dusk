@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk;
+namespace Travoltron\DuskSecure;
 
 use Closure;
 use Exception;
@@ -79,7 +79,7 @@ abstract class TestCase extends FoundationTestCase
      * Create a new browser instance.
      *
      * @param  \Closure  $callback
-     * @return \Laravel\Dusk\Browser|void
+     * @return \Travoltron\DuskSecure\Browser|void
      * @throws \Exception
      * @throws \Throwable
      */
@@ -129,7 +129,7 @@ abstract class TestCase extends FoundationTestCase
      * Create a new Browser instance.
      *
      * @param  \Facebook\WebDriver\Remote\RemoteWebDriver  $driver
-     * @return \Laravel\Dusk\Browser
+     * @return \Travoltron\DuskSecure\Browser
      */
     protected function newBrowser($driver)
     {

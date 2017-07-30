@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk;
+namespace Travoltron\DuskSecure;
 
 use Closure;
 use BadMethodCallException;

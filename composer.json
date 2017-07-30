@@ -5,8 +5,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Taylor Otwell",
-            "email": "taylor@laravel.com"
+            "name": "Ben Warburton",
+            "email": "ben@travoltron.com"
         }
     ],
     "require": {
@@ -24,16 +24,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Laravel\\Dusk\\": "src/"
+            "Travoltron\\DuskSecure\\": "src/"
         }
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "2.0-dev"
-        },
         "laravel": {
             "providers": [
-                "Laravel\\Dusk\\DuskServiceProvider"
+                "Travoltron\\DuskSecure\\DuskSecureServiceProvider"
             ]
         }
     },

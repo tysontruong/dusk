@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Dusk\Concerns;
+namespace Travoltron\DuskSecure\Concerns;
 
 use Illuminate\Support\Str;
 use InvalidArgumentException;

@@ -1,7 +1,7 @@
 <?php
 
-use Laravel\Dusk\Page;
-use Laravel\Dusk\Browser;
+use Travoltron\DuskSecure\Page;
+use Travoltron\DuskSecure\Browser;
 use PHPUnit\Framework\TestCase;
 
 class BrowserTest extends TestCase

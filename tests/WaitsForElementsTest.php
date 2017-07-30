@@ -1,6 +1,6 @@
 <?php
 
-use Laravel\Dusk\Browser;
+use Travoltron\DuskSecure\Browser;
 use PHPUnit\Framework\TestCase;
 
 class WaitsForElementsTest extends TestCase
