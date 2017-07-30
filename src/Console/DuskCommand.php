@@ -15,7 +15,7 @@ class DuskCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'dusk';
+    protected $signature = 'dusksecure';
 
     /**
      * The console command description.
