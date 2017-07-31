@@ -22,17 +22,6 @@ abstract class DuskTestCase extends BaseTestCase
     }
 
     /**
-     * Stop Dusk after exectution.
-     *
-     * @afterClass
-     * @return  void
-     */
-    public static function finish()
-    {
-        static::stopChromeDriver();
-    }
-
-    /**
      * Create the RemoteWebDriver instance.
      *
      * @return \Facebook\WebDriver\Remote\RemoteWebDriver

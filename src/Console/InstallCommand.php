@@ -62,7 +62,7 @@ class InstallCommand extends Command
      */
     protected function createScreenshotsDirectory()
     {
-        mkdir(base_path('tests/Browser/screenshots'), 0755, true);
+        mkdir(base_path('tests/Browser/screenshots'), 0777, true);
 
         file_put_contents(base_path('tests/Browser/screenshots/.gitignore'), '*
 !.gitignore
@@ -76,7 +76,7 @@ class InstallCommand extends Command
      */
     protected function createConsoleDirectory()
     {
-        mkdir(base_path('tests/Browser/console'), 0755, true);
+        mkdir(base_path('tests/Browser/console'), 0777, true);
 
         file_put_contents(base_path('tests/Browser/console/.gitignore'), '*
 !.gitignore
