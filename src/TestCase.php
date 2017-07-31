@@ -43,10 +43,6 @@ abstract class TestCase extends FoundationTestCase
         Browser::$storeScreenshotsAt = base_path('tests/Browser/screenshots');
 
         Browser::$storeConsoleLogAt = base_path('tests/Browser/console');
-
-        Browser::$userResolver = function () {
-            return $this->user();
-        };
     }
 
     /**
@@ -230,16 +226,5 @@ abstract class TestCase extends FoundationTestCase
     protected function baseUrl()
     {
         return config('app.url');
-    }
-
-    /**
-     * Get a callback that returns the default user to authenticate.
-     *
-     * @return \Closure
-     * @throws \Exception
-     */
-    protected function user()
-    {
-        throw new Exception("User resolver has not been set.");
     }
 }
