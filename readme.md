@@ -1,4 +1,4 @@
-<p align="center"><img src="http://imgur.com/a/6T8po"></p>
+<p align="center"><img src="http://i.imgur.com/7hqiVYp.png"></p>
 
 <p align="center">
 <a href="https://packagist.org/packages/travoltron/dusk-secure"><img src="https://poser.pugx.org/travoltron/dusk-secure/d/total.svg" alt="Total Downloads"></a>
