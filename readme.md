@@ -29,7 +29,7 @@ Make your dusk test as you have before. Then, make a new command, making sure to
 
 In the handle method, simply new up the class of the test you just created, initialize it and run it:
 
-```
+```php
 /**
  * Execute the console command.
  *
@@ -49,7 +49,33 @@ When you make a test for dusk, make sure you include `$browser->quit();` to ensu
 
 ## What's next?
 
-I'll make a `2.0` branch in the coming days to keep pace with the official package. It brings headless operation which will really help with some serious scraping. 
+~~I'll make a `2.0` branch in the coming days to keep pace with the official package. It brings headless operation which will really help with some serious scraping.~~
+
+
+Just kidding! Version 1.1.0 upgrades the binary and allows for headless operation. 
+
+To run your scraping headless, check out `DuskTestCase.php`, make sure to add ChromeOptions to your use statements, and set the `$options` variable and pass it through to the RemoteWebDriver like pcitured below.  
+
+```php
+use Facebook\WebDriver\Chrome\ChromeOptions;
+
+/**
+ * Create the RemoteWebDriver instance.
+ *
+ * @return \Facebook\WebDriver\Remote\RemoteWebDriver
+ */
+protected function driver()
+{
+    $options = (new ChromeOptions)->addArguments(['--headless']);
+
+    return RemoteWebDriver::create(
+        'http://localhost:9515', DesiredCapabilities::chrome()->setCapability(
+            ChromeOptions::CAPABILITY, $options
+        )
+    );
+}
+```
+
 
 If anyone wants to help kick in a PR. 
 
