@@ -54,7 +54,7 @@ When you make a test for dusk, make sure you include `$browser->quit();` to ensu
 
 Just kidding! Version 1.1.0 upgrades the binary and allows for headless operation. 
 
-To run your scraping headless, check out `DuskTestCase.php`, make sure to add ChromeOptions to your use statements, and set the `$options` variable and pass it through to the RemoteWebDriver like pcitured below.  
+To run your scraping headless, check out `DuskTestCase.php`, make sure to add ChromeOptions to your use statements, and set the `$options` variable and pass it through to the RemoteWebDriver like pictured below.  
 
 ```php
 use Facebook\WebDriver\Chrome\ChromeOptions;
