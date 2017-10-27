@@ -53,7 +53,7 @@ class ElementResolver
      * @param  string  $prefix
      * @return void
      */
-    public function __construct($driver, $prefix = 'body')
+    public function __construct($driver, $prefix = '')
     {
         $this->driver = $driver;
         $this->prefix = trim($prefix);
