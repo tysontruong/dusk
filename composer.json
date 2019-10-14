@@ -1,5 +1,5 @@
 {
-    "name": "travoltron/dusk-secure",
+    "name": "tysontruong/dusk-secure",
     "description": "A more secure Laravel Dusk that provides simple end-to-end testing and browser automation without exposing routes or authentication.",
     "keywords": ["laravel", "testing", "webdriver"],
     "license": "MIT",
